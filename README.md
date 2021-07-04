@@ -1,5 +1,13 @@
 ## Cross-Site-Scripting-XSS-Attack
 
+# Goal
+
+To design scrips for the following attack on a demo website ::
+
+- Becoming the Victim’s Friend
+- Modifying the Victims Profile
+- Posting on the Wire on Behalf of the Victim 
+- Design a Self-Propagating Worm 
 
 # Overview 
 Cross-site scripting (XSS) is a type of vulnerability commonly found in web applications. This vulnerability makes it possible for attackers to inject malicious code (e.g. JavaScript programs) into victim’s web browser. Using this malicious code, attackers can steal a victim’s credentials, such as session cookies. The access control policies (i.e., the same origin policy) employed by browsers to protect those credentials can be bypassed by exploiting XSS vulnerabilities.
